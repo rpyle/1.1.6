@@ -5,12 +5,12 @@ import turtle as trtl
 painter = trtl.Turtle()
 painter.pensize(40)
 painter.circle(20)
-w = 6
+number_of_legs = 6
 y = 70
-z = 380 / w
+z = 380 / number_of_legs
 painter.pensize(5)
 n = 0
-while (n < w):
+while (n < number_of_legs):
   painter.goto(0,0)
   painter.setheading(z*n)
   painter.forward(y)
