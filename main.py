@@ -9,8 +9,8 @@ number_of_legs = 6
 leg_length = 70
 leg_angle = 380 / number_of_legs
 painter.pensize(5)
-n = 0
-while (n < number_of_legs):
+current_leg = 0
+while (current_leg < number_of_legs):
   painter.goto(0,0)
   painter.setheading(leg_angle*n)
   painter.forward(leg_length)
